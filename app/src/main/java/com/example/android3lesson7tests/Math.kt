@@ -20,12 +20,11 @@ class Math {
             val num2 = b.toInt()
             result = (num1 + num2).toString()
         }
-
         return result
     }
 
 
-    fun devite(a: String, b: String): String {
+    fun divide(a: String, b: String): String {
         var result = ""
         if (a == "0" || b == "0") {
             result = "Нельзя делить на ноль"

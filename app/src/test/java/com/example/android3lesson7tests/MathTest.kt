@@ -47,12 +47,12 @@ class MathTest {
 
     @Test
     fun simpleDivide(){
-        assertEquals("3",math?.devite("9", "3"))
+        assertEquals("3",math?.divide("9", "3"))
     }
 
     @Test
     fun zeroDivide(){
-        assertEquals("Нельзя делить на ноль",math?.devite("9", "0"))
+        assertEquals("Нельзя делить на ноль",math?.divide("9", "0"))
     }
 
     @After

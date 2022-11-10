@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 result.text = Math().add(numFirstET.text.toString(), numSecondET.text.toString())
             }
             divCalculateBtn.setOnClickListener {
-                divResult.text = Math().devite(divFirstET.text.toString(), divSecondET.text.toString())
+                divResult.text = Math().divide(divFirstET.text.toString(), divSecondET.text.toString())
             }
         }
     }

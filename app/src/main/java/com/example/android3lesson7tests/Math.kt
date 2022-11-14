@@ -26,7 +26,7 @@ class Math {
 
     fun divide(a: String, b: String): String {
         var result = ""
-        if (a == "0" || b == "0") {
+        if (b == "0") {
             result = "Нельзя делить на ноль"
         } else {
             val num1 = a.toInt()
